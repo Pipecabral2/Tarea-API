@@ -1,0 +1,60 @@
+/* Estilos para el fondo azul de la página */
+body {
+    background-color: #4c4c8c;
+}
+
+/* Estilos para el contenedor principal de la página */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Estilos para la imagen */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para el título */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #4c4c8c;
+}
+
+/* Estilos para la sección de botones de paginación */
+.pagination-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 10px;
+}
+
+.pagination li a {
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4c4c8c;
+    text-decoration: none;
+}
+
+.pagination li.active a {
+    background-color: #2f2f4f;
+}
